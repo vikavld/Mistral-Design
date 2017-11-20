@@ -1,0 +1,22 @@
+{
+  "name": "mistral-design",
+  "version": "1.0.0",
+  "description": "Bootstrap powered page for Mistral Designers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vildana Lojo",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-css-url-adjuster": "^0.2.3",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  }
+}

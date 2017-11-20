@@ -1,0 +1,197 @@
+//Bootsrtap
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../node_modules/bootstrap/scss/bootstrap-reboot";
+
+@import "_partials/all";
+
+
+//Theming
+// Bootsrtap theming
+
+@import "_partials/custom-bootstrap-variables";
+
+//Sizing
+// Padding
+
+
+body{
+
+  font-family: $font-family-sans-serif;
+
+}
+
+main{
+
+  padding: 2em;
+
+}
+
+a{
+
+  color: $mistral-teal;
+
+}
+
+a:hover{
+
+  color: $mistral-yellow;
+
+}
+
+.md-nav{
+
+  background-color: $white;
+  height: 5em;
+  padding: 0 2em;
+
+  ul{
+
+    width: 100%;
+
+  }
+
+}
+
+.md-footer {
+
+  height: 5em;
+  border-top: 1px solid $gray-300;
+
+  .row{
+
+    height: 100%;
+
+  }
+
+}
+
+.md-nav-social {
+
+  list-style-type: none;
+
+  .md-nav-social_link{
+
+    display: inline-block;
+
+  }
+
+}
+
+
+.nav-brand-logo{
+
+  color: $mistral-teal;
+  font-weight: $font-weight-bold;
+
+  span{
+
+    color: #000000;
+    font-family: $mistral-font-family;
+    font-weight: $font-weight-normal;
+
+  }
+
+}
+
+//Sections
+#md-news{
+
+  position: relative;
+  top: -9em;
+
+}
+
+.hero-text{
+
+  font-family: $hero-font-family;
+  font-weight: 6rem;
+
+}
+
+.md-cover-img--large{
+  
+  //background-color: $gray-400;
+  background-image: url("/img/Death_to_Stock_Tactile_7.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+  
+}
+
+.md-cover-jumbotron{
+
+  top: -10em;
+  left: 2.5em;
+
+}
+
+.md-card_container--small{
+
+  padding-bottom: 2em;
+  padding-top: 0.5em;
+
+}
+
+.md-card_image{
+
+  background-color: $mistral-teal;
+  max-height: 20em;
+  width: 100%;
+
+}
+
+.md-card_title, .md-card_text{
+
+  font-family: $brand-font-family;
+
+}
+
+.md-card_text{
+
+  max-height: 3em;
+  word-break: break-all;
+  overflow: hidden;
+
+}
+
+.md-card_body{
+
+  height: 14em;
+
+}
+
+//Buttons
+.md-btn--primary{
+
+  background-color: $mistral-teal;
+  border-color: $mistral-teal;
+
+}
+
+.md-btn--primary:hover{
+
+  background-color: $gray-300;
+  border-color: $gray-300;
+  border-color: $mistral-font-family;
+
+}
+
+#md-sign-up{
+
+  position: relative;
+  top: -4em;
+
+}
+
+.md-footer-logo{
+
+  text-align: center;
+
+  img{
+
+    height: 2em;
+
+  }
+
+}
